@@ -46,6 +46,21 @@ Open your web browser and navigate to http://localhost:8000 to access Food Truck
    python manage.py get_nearest_food_trucks lat lng number
 ```
    This will the closest {number} of food trucks to the position (lat,lng)
+## 📸 Sample Screen Shot 
+- **🏠 Home Page**:
+<div style="display:flex; justify-content: center;">
+    <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/sanFran.png" alt="Home Page 1" width="400" height="300"> 
+</div>
+
+- **📝 Details Page**:
+  <div style="text-align:center;">
+    <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/FoodTruckInfo.png" alt="Details Page" width="400" height="300">
+  </div>
+
+--** Command Line Output **:
+   <div style="text-align:center;">
+    <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/CommandLine.png" alt="Details Page" width="400" height="300">
+  </div>
 
 ## 🚀 Things to Improve
 

@@ -18,7 +18,6 @@ def update_all(request):
     connection_string = f"mongodb+srv://{username}:{password}@sanfranciscofoodtruck.uwrcvez.mongodb.net/?retryWrites=true&w=majority&appName=SanFranciscoFoodTruck"
     client = MongoClient(connection_string, server_api=ServerApi('1'))
     db = client.SanFranFoodTruck
-    response = {}
 
     trucks = db.foodtrucks.find({})
     for truck in trucks:
@@ -30,7 +29,6 @@ def update_all(request):
 
 def get_nearest_food_trucks(request, lat, lng, limit=20):
 
-    print(lat, lng,limit, " This are the coordinates of the nearest food truck")
     connection_string = f"mongodb+srv://{username}:{password}@sanfranciscofoodtruck.uwrcvez.mongodb.net/?retryWrites=true&w=majority&appName=SanFranciscoFoodTruck"
     client = MongoClient(connection_string, server_api=ServerApi('1'))
     db = client.SanFranFoodTruck.foodtrucks
