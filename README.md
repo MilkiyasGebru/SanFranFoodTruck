@@ -59,7 +59,7 @@ Open your web browser and navigate to http://localhost:8000 to access Food Truck
 
 --** Command Line Output **:
    <div style="text-align:center;">
-    <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/CommandLine.png" alt="Details Page" width="400" height="300">
+    <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/CommandLine.png" alt="Details Page" width="200" height="150">
   </div>
 
 ## 🚀 Things to Improve
