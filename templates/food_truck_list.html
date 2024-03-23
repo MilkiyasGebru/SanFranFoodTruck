@@ -1,0 +1,227 @@
+<!--{% load static %}-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Food Truck List</title>-->
+<!--    <link rel="stylesheet" type="text/css" href="{% static 'foodtruck_style.css' %}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="container">-->
+<!--        <h1>Food Truck List</h1>-->
+<!--        <table>-->
+<!--            <thead>-->
+<!--                <tr>-->
+<!--                    <th>Location ID </th>-->
+<!--                    <th>Applicant </th>-->
+<!--                    <th>Facility Type</th>-->
+<!--                    <th>CNN</th>-->
+<!--                    <th>Location Description</th>-->
+<!--                    <th>Address</th>-->
+<!--                    <th>Blocklot</th>-->
+<!--                    <th>Block</th>-->
+<!--                    <th>Lot</th>-->
+<!--                    <th>Permit</th>-->
+<!--                    <th>Status</th>-->
+<!--                    <th>Food Items</th>-->
+<!--                    <th>X</th>-->
+<!--                    <th>Y</th>-->
+<!--                    <th>Latitude</th>-->
+<!--                    <th>Longitude</th>-->
+<!--                    <th>Schedule</th>-->
+<!--                    <th>Days/Hours</th>-->
+<!--                    <th>NOI Sent</th>-->
+<!--                    <th>Approved</th>-->
+<!--                    <th>Received</th>-->
+<!--                    <th>Prior Permit</th>-->
+<!--                    <th>Expiration Date</th>-->
+<!--                    <th>Location</th>-->
+<!--                    <th>Fire Prevention Districts</th>-->
+<!--                    <th>Police Districts</th>-->
+<!--                    <th>Supervisor Districts</th>-->
+<!--                    <th>Zip Codes</th>-->
+<!--                    <th>Neighborhoods (Old)</th>-->
+<!--                </tr>-->
+<!--            </thead>-->
+<!--            <tbody>-->
+<!--                <tr>-->
+<!--                    <td>{{truck}}</td>-->
+<!--                    <td>{{ truck.locationid }}</td>-->
+<!--                    <td>{{ truck.Applicant }}</td>-->
+<!--                    <td>{{ truck.FacilityType }}</td>-->
+<!--                    <td>{{ truck.cnn }}</td>-->
+<!--                    <td>{{ truck.LocationDescription }}</td>-->
+<!--                    <td>{{ truck.Address }}</td>-->
+<!--                    <td>{{ truck.blocklot }}</td>-->
+<!--                    <td>{{ truck.block }}</td>-->
+<!--                    <td>{{ truck.lot }}</td>-->
+<!--                    <td>{{ truck.permit }}</td>-->
+<!--                    <td>{{ truck.Status }}</td>-->
+<!--                    <td>{{ truck.FoodItems }}</td>-->
+<!--                    <td>{{ truck.X }}</td>-->
+<!--                    <td>{{ truck.Y }}</td>-->
+<!--                    <td>{{ truck.Latitude }}</td>-->
+<!--                    <td>{{ truck.Longitude }}</td>-->
+<!--                    <td>{{ truck.Schedule }}</td>-->
+<!--                    <td>{{ truck.dayshours }}</td>-->
+<!--                    <td>{{ truck.NOISent }}</td>-->
+<!--                    <td>{{ truck.Approved }}</td>-->
+<!--                    <td>{{ truck.Received }}</td>-->
+<!--                    <td>{{ truck.PriorPermit }}</td>-->
+<!--                    <td>{{ truck.ExpirationDate }}</td>-->
+<!--                    <td>{{ truck.Location }}</td>-->
+<!--                    <td>{{ truck.Fire_Prevention_Districts }}</td>-->
+<!--                    <td>{{ truck.Police_Districts }}</td>-->
+<!--                    <td>{{ truck.Supervisor_Districts }}</td>-->
+<!--                    <td>{{ truck.Zip_Codes }}</td>-->
+<!--                    <td>{{ truck.Neighborhoods_old }}</td>-->
+<!--                </tr>-->
+<!--            </tbody>-->
+<!--        </table>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Truck List</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="container">
+
+        <h1>Food Truck List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="field">Field</th>
+                    <th class="value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="field">Location ID</td>
+                    <td class="value">{{ truck.locationid }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Applicant</td>
+                    <td>{{ truck.Applicant }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Facility Type</td>
+                    <td>{{ truck.FacilityType }}</td>
+                </tr>
+                <tr>
+                    <td class="field">CNN</td>
+                    <td>{{ truck.cnn }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Location Description</td>
+                    <td>{{ truck.LocationDescription }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Address</td>
+                    <td>{{ truck.Address }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Blocklot</td>
+                    <td>{{ truck.blocklot }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Block</td>
+                    <td>{{ truck.block }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Lot</td>
+                    <td>{{ truck.lot }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Permit</td>
+                    <td>{{ truck.permit }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Status</td>
+                    <td>{{ truck.Status }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Food Items</td>
+                    <td>{{ truck.FoodItems }}</td>
+                </tr>
+                <tr>
+                    <td class="field">X</td>
+                    <td>{{ truck.X }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Y</td>
+                    <td>{{ truck.Y }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Latitude</td>
+                    <td>{{ truck.Latitude }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Longitude</td>
+                    <td>{{ truck.Longitude }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Schedule</td>
+                    <td>{{ truck.Schedule }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Days/Hours</td>
+                    <td>{{ truck.dayshours }}</td>
+                </tr>
+                <tr>
+                    <td class="field">NOI Sent</td>
+                    <td>{{ truck.NOISent }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Approved</td>
+                    <td>{{ truck.Approved }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Received</td>
+                    <td>{{ truck.Received }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Prior Permit</td>
+                    <td>{{ truck.PriorPermit }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Expiration Date</td>
+                    <td>{{ truck.ExpirationDate }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Location</td>
+                    <td>{{ truck.Location }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Fire Prevention Districts</td>
+                    <td>{{ truck.Fire_Prevention_Districts }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Police Districts</td>
+                    <td>{{ truck.Police_Districts }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Supervisor Districts</td>
+                    <td>{{ truck.Supervisor_Districts }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Zip Codes</td>
+                    <td>{{ truck.Zip_Codes }}</td>
+                </tr>
+                <tr>
+                    <td class="field">Neighborhoods (Old)</td>
+                    <td>{{ truck.Neighborhoods_old }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
