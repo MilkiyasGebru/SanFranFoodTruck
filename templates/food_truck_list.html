@@ -94,7 +94,7 @@
     {% include 'navbar.html' %}
     <div class="container">
 
-        <h1>Food Truck List</h1>
+        <h1> Food Truck Information </h1>
         <table>
             <thead>
                 <tr>
@@ -171,18 +171,8 @@
                     <td class="field">Schedule</td>
                     <td>{{ truck.Schedule }}</td>
                 </tr>
-                <tr>
-                    <td class="field">Days/Hours</td>
-                    <td>{{ truck.dayshours }}</td>
-                </tr>
-                <tr>
-                    <td class="field">NOI Sent</td>
-                    <td>{{ truck.NOISent }}</td>
-                </tr>
-                <tr>
-                    <td class="field">Approved</td>
-                    <td>{{ truck.Approved }}</td>
-                </tr>
+
+
                 <tr>
                     <td class="field">Received</td>
                     <td>{{ truck.Received }}</td>
@@ -199,26 +189,8 @@
                     <td class="field">Location</td>
                     <td>{{ truck.Location }}</td>
                 </tr>
-                <tr>
-                    <td class="field">Fire Prevention Districts</td>
-                    <td>{{ truck.Fire_Prevention_Districts }}</td>
-                </tr>
-                <tr>
-                    <td class="field">Police Districts</td>
-                    <td>{{ truck.Police_Districts }}</td>
-                </tr>
-                <tr>
-                    <td class="field">Supervisor Districts</td>
-                    <td>{{ truck.Supervisor_Districts }}</td>
-                </tr>
-                <tr>
-                    <td class="field">Zip Codes</td>
-                    <td>{{ truck.Zip_Codes }}</td>
-                </tr>
-                <tr>
-                    <td class="field">Neighborhoods (Old)</td>
-                    <td>{{ truck.Neighborhoods_old }}</td>
-                </tr>
+
+
             </tbody>
         </table>
     </div>
