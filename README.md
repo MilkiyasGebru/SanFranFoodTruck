@@ -64,8 +64,9 @@ Open your web browser and navigate to http://localhost:8000 to access Food Truck
    <div style="text-align:center;">
     <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/CommandLine.png" alt="Details Page" >
   </div>
+- As you can see from the picture it returns the closest food truck for the given position. If you substitute the 1 with different value, you are going that number of closest food truck displayed
 
-## 🚀 Things to Improve
+##  Things to Improve
 
 -  **Containerization with Docker**: Containerize the project using Docker to ensure consistency in development and deployment environments.
 -  **Deployment on Hosting Service**: Consider deploying the containerized application on a hosting service for improved scalability and availability.
