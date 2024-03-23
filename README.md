@@ -52,18 +52,21 @@ Open your web browser and navigate to http://localhost:8000 to access Food Truck
     <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/sanFran.png" alt="Home Page 1" width="400" height="300"> 
 </div>
 
+-  So as you can see from the pictures, for every (lat,lng) which is incase represented by PersonIcon you can see the 20 closest FoodTrucks
+-  If you click on the FoodTruck Icon You will be directed to the Food Truck Detail Page
+
 - **📝 Details Page**:
   <div style="text-align:center;">
     <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/FoodTruckInfo.png" alt="Details Page" width="400" height="300">
   </div>
 
---** Command Line Output **:
+- **Command Line Output**:
    <div style="text-align:center;">
     <img src="https://github.com/MilkiyasGebru/SanFranFoodTruck/blob/master/pictures/CommandLine.png" alt="Details Page" width="200" height="150">
   </div>
 
 ## 🚀 Things to Improve
 
-- 🐳 **Containerization with Docker**: Containerize the project using Docker to ensure consistency in development and deployment environments.
-- 🚀 **Deployment on Hosting Service**: Consider deploying the containerized application on a hosting service for improved scalability and availability.
-- 🗺 **Write Tests to Make Sure Our Product is working fine
+-  **Containerization with Docker**: Containerize the project using Docker to ensure consistency in development and deployment environments.
+-  **Deployment on Hosting Service**: Consider deploying the containerized application on a hosting service for improved scalability and availability.
+-  **Write Tests** to Make Sure Our Product is working fine
