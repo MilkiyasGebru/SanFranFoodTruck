@@ -1,4 +1,4 @@
-# Food Truck Finder
+# San Francisco Food Truck Finder
 
 ##  Introduction
 Greetings to Food Truck Finder! Our platform has been created with the intention of assisting you in finding the finest street food choices, specifically food trucks, within San Francisco. Regardless of whether you're a resident food enthusiast or a traveler exploring the city, Food Truck Finder is here to provide you with comprehensive support.
@@ -15,7 +15,7 @@ To run Food Truck Finder locally, follow these steps:
 
 1. **Clone the Repository**: Clone the Food Truck Finder repository to your local machine.
    ```bash
-   git clone https://github.com/wubeZ/food_truck_finder.git
+   git clone https://github.com/MilkiyasGebru/SanFranFoodTruck.git
    ```
 2. **Create a Virtual Environment**: Set up a virtual environment for the project to isolate dependencies.
    ```bash
@@ -40,3 +40,15 @@ To run Food Truck Finder locally, follow these steps:
    python manage.py runserver
    ```
 Open your web browser and navigate to http://localhost:8000 to access Food Truck Finder.
+
+6.**Run the Application on Command Line**:
+```bash
+   python manage.py get_nearest_food_trucks lat lng number
+```
+   This will the closest {number} of food trucks to the position (lat,lng)
+
+## 🚀 Things to Improve
+
+- 🐳 **Containerization with Docker**: Containerize the project using Docker to ensure consistency in development and deployment environments.
+- 🚀 **Deployment on Hosting Service**: Consider deploying the containerized application on a hosting service for improved scalability and availability.
+- 🗺 **Write Tests to Make Sure Our Product is working fine
