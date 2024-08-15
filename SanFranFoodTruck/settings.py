@@ -15,8 +15,8 @@ from pathlib import Path
 import urllib.parse
 
 # Encode the username and password
-username = urllib.parse.quote_plus('milkiyasgebru')
-password = urllib.parse.quote_plus('Miki@0929054164')
+username = urllib.parse.quote_plus('your_username')
+password = urllib.parse.quote_plus('your_passowrd')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
