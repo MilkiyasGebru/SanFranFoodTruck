@@ -7,8 +7,8 @@ from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 import urllib.parse
 
-username = urllib.parse.quote_plus('milkiyasgebru')
-password = urllib.parse.quote_plus('Miki@0929054164')
+username = urllib.parse.quote_plus('Enter your name')
+password = urllib.parse.quote_plus('Enter your password')
 
 
 # Create your views here.
